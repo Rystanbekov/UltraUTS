@@ -1,0 +1,131 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[stlink]
+stlinkserialNo=USB0
+stlinkfoundProbes=
+[DebugChecksum]
+Checksum=-1319585570
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[CodeCoverage]
+Enabled=_ 0
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[StLinkDriver]
+CStepIntDis=_ 0
+stlinkserialNo=2B77FD99
+stlinkfoundProbes=
+[array_types]
+Fmt0=uint16_t[2048]	3	0
+Fmt1=uint16_t[4096]	4	0
+Fmt2=uint16_t[8192]	4	0
+Fmt3=uint16_t[8]	3	0
+Fmt4=uint32_t[4096]	1	0
+Fmt5=uint8_t[1024]	1	0
+Fmt6=uint8_t[2048]	3	0
+Fmt7=uint8_t[250]	3	0
+Fmt8=uint8_t[255]	1	0
+Fmt9=uint8_t[256]	1	0
+[watch_formats]
+Fmt0={W}42:adc_res	1	0
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "0x08000500" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\startup_stm32f10x_hd.s}.143.1" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\GENERATOR_!}.262.3" 0 0 1 "" 0 "" 0
+Bp3=_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.124.3" 0 0 1 "" 0 "" 0
+Bp4=_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.91.3" 0 0 1 "" 0 "" 0
+Count=5
+[Aliases]
+A0=_ "C:\Users\semenenkon\Desktop\Generator 8ch 1.07.17(Отличная синхронизация между генератором и приемником)\Generator 8ch\IAR\system_stm32f10x.c" ""
+A1=_ "C:\Users\user\Desktop\UTS\IAR\GENERATOR_!\Generator 8ch\IAR\system_stm32f10x.c" ""
+A2=_ "I:\Generator 8ch\IAR\init_periph.c" ""
+A3=_ "I:\Generator 8ch\IAR\system_stm32f10x.c" ""
+Count=4
+SuppressDialog=1
